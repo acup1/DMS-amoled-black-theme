@@ -12,6 +12,10 @@
 			"dark": {
 				"flavor": "black",
 				"accent": "white"
+			},
+			"light": {
+				"flavor": "black",
+				"accent": "white"
 			}
 		},
 		"flavors": [
@@ -19,6 +23,24 @@
 				"id": "black",
 				"name": "black",
 				"dark": {
+					"primaryText": "#000000",
+					"primaryContainer": "#CC5200",
+					"secondary": "#999999",
+					"surface": "#000000",
+					"surfaceText": "#E6F0FF",
+					"surfaceVariant": "#000000",
+					"surfaceVariantText": "#FFFFFF",
+					"surfaceTint": "#FF6600",
+					"background": "#000000",
+					"backgroundText": "#FFFFFF",
+					"outline": "#555555",
+					"surfaceContainer": "#000000",
+					"surfaceContainerHigh": "#000000",
+					"error": "#DD0000",
+					"warning": "#FFCC00",
+					"info": "#999999"
+				},
+				"light": {
 					"primaryText": "#000000",
 					"primaryContainer": "#CC5200",
 					"secondary": "#999999",
@@ -54,10 +76,31 @@
 				}
 			},
 			{
+				"id": "maroon",
+				"name": "maroon",
+				"black": {
+					"primary": "#800000"
+				}
+			},
+			{
 				"id": "green",
 				"name": "green",
 				"black": {
 					"primary": "#00FF00"
+				}
+			},
+			{
+				"id": "greenyellow",
+				"name": "greenyellow",
+				"black": {
+					"primary": "#ADFF2F"
+				}
+			},
+			{
+				"id": "coral",
+				"name": "coral",
+				"black": {
+					"primary": "#03fc7b"
 				}
 			},
 			{
@@ -68,10 +111,31 @@
 				}
 			},
 			{
+				"id": "turquoise",
+				"name": "turquoise",
+				"black": {
+					"primary": "#03fcc6"
+				}
+			},
+			{
 				"id": "purple",
 				"name": "purple",
 				"black": {
 					"primary": "#CC00FF"
+				}
+			},
+			{
+				"id": "pink",
+				"name": "pink",
+				"black": {
+					"primary": "#fc03eb"
+				}
+			},
+			{
+				"id": "yellow",
+				"name": "yellow",
+				"black": {
+					"primary": "#fcfc03"
 				}
 			},
 			{
